@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-mongoose.connect("mongodb://localhost:27017/vkaps-test-node").then(() => {
+mongoose.connect("mongodb://localhost:27017/mxpert-test-node").then(() => {
     console.log("mongodb connected")
 }).catch((err) => {
     console.log(err)
